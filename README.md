@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # nuxt
 
 > My superb Nuxt.js project
@@ -21,6 +20,3 @@ $ npm run generate
 ```
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
-=======
-# nuxt-test-project
->>>>>>> 81bd88964b8c2a6408ab3a2fa7e6197e3b1e9ff3
