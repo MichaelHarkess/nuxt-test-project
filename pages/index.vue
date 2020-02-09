@@ -11,14 +11,12 @@
       <div class="links">
         <a
           href="#"
-          target="_blank"
           class="button--green"
         >
           Contact
         </a>
         <a
           href="#"
-          target="_blank"
           class="button--grey"
         >
           Wholesale
