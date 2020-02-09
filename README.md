@@ -1,6 +1,6 @@
-# nuxt
+# Sugaar
 
-> My superb Nuxt.js project
+> nuxtjs/netlify
 
 ## Build Setup
 
