@@ -1,6 +1,6 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/578ddd0d-8b9e-42e8-a000-174b6a69dc1f/deploy-status)](https://app.netlify.com/sites/sugaar/deploys)
 
-# Sugaar
+# Su Gaar
 
 > nuxtjs/netlify
 
