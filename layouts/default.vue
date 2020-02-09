@@ -17,10 +17,6 @@ html {
   box-sizing: border-box;
 }
 
-body {
-  background: url("~assets/images/bkg.jpg")
-}
-
 *,
 *:before,
 *:after {
