@@ -2,24 +2,24 @@
   <div class="container">
     <div>
       <h1 class="title">
-        Su Gaar
+        About Su Gaar
       </h1>
       <h2 class="subtitle">
-        Decadent CBD Products Coming Soon
+        About Us Coming Soon
       </h2>
-      <!--<div class="links">-->
-        <!--<a-->
-          <!--href="/contact"-->
-          <!--class="button&#45;&#45;green"-->
-        <!--&gt;-->
-          <!--Contact-->
-        <!--</a>-->
-        <!--<a-->
-          <!--href="/wholesale"-->
-          <!--class="button&#45;&#45;grey"-->
-        <!--&gt;-->
-          <!--Wholesale-->
-        <!--</a>-->
+      <div class="links">
+        <a
+          href="/"
+          class="button--green"
+        >
+          Home
+        </a>
+        <a
+          href="/wholesale"
+          class="button--grey"
+        >
+          Wholesale
+        </a>
       </div>
     </div>
   </div>
@@ -55,7 +55,7 @@ export default {
 .title {
   display: block;
   font-weight: 300;
-  font-size: 100px;
+  font-size: 80px;
   color: #35495e;
   letter-spacing: 1px;
 }
