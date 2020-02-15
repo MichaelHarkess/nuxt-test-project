@@ -1,11 +1,11 @@
 <template>
   <div class="container">
     <div>
-      <h1 class="title">
-        Su Gaar
+      <h1 class="title font-bold">
+        Su <span class="text-green-700">Gaar</span>
       </h1>
-      <h2 class="subtitle">
-        Decadent CBD Products Coming Soon
+      <h2 class="subtitle text-xl">
+        Decadent <span class="text-green-700 font-bold">CBD</span> Products Coming Soon
       </h2>
       <!--<div class="links">-->
         <!--<a-->
@@ -54,20 +54,57 @@ export default {
 
 .title {
   display: block;
-  font-weight: 700;
   font-size: 100px;
   color: #35495e;
   letter-spacing: 1px;
+  -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 4s; /* Firefox < 16 */
+  -ms-animation: fadein 4s; /* Internet Explorer */
+  -o-animation: fadein 4s; /* Opera < 12.1 */
+  animation: fadein 4s;
 }
 
 .subtitle {
   font-weight: 300;
-  font-size: 20px;
   color: #526488;
   padding-bottom: 15px;
+  -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 4s; /* Firefox < 16 */
+  -ms-animation: fadein 4s; /* Internet Explorer */
+  -o-animation: fadein 4s; /* Opera < 12.1 */
+  animation: fadein 4s;
 }
 
 .links {
   padding-top: 15px;
+}
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
 }
 </style>
