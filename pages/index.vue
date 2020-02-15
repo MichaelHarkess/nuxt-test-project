@@ -54,7 +54,7 @@ export default {
 
 .title {
   display: block;
-  font-weight: 300;
+  font-weight: 700;
   font-size: 100px;
   color: #35495e;
   letter-spacing: 1px;
